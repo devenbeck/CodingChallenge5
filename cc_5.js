@@ -66,3 +66,11 @@ function calculateTax (amount, taxRate) {
 }    
 calculateTax(100, 0.07);   //7% tax on $100 is $7
 
+//Task 9: Function Expression
+//Scenario: Discount Application
+const applyDiscount = function(price, discount){     //function expression declared
+let discountedPrice = price - (price * discount);
+console.log(`Discounted Price: $${discountedPrice}`);   //template literal
+return discountedPrice;
+};
+applyDiscount(100, 0.1);    //10% off $100
