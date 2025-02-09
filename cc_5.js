@@ -30,3 +30,11 @@ cartItems.pop();     //removing last item from array
 cartItems.unshift("ketchup");         //adding new item to beginning of array
 cartItems.shift();          //removes first item from array
 console.log(cartItems);
+
+//Task 4: Map Method
+//Scenario: Price Adjustments
+let prices = [100, 200, 300];     //array of prices
+const discount = 0.9;    //10% discount
+let discountedPrices = prices.map(prices => prices * discount)   //map method helps you quickly apply transformation to every item in an array
+console.log (discountedPrices);    //log result
+
