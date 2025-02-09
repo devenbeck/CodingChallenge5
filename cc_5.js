@@ -56,3 +56,13 @@ console.log (totalRevenue);
 let customers = ["Alice", "Bob", "Charlie", "David"];  //array of customer names
 let specificCustomer = customers.find(c => c === "Charlie");  //finding Charlie specifically
 console.log(specificCustomer);   //logging result
+
+//Task 8: Function Declaration
+// Scenario: Tax Calculation
+function calculateTax (amount, taxRate) {
+    let tax = amount * taxRate;
+    console.log (`The calculated tax is: $${tax}`);    //log using template literal
+    return tax;
+}    
+calculateTax(100, 0.07);   //7% tax on $100 is $7
+
