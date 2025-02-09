@@ -74,3 +74,12 @@ console.log(`Discounted Price: $${discountedPrice}`);   //template literal
 return discountedPrice;
 };
 applyDiscount(100, 0.1);    //10% off $100
+
+//Task 10: Arrow Function
+// Scenario: Loyalty Points
+const calculatePoints = (purchaseAmount) => {
+    let points = (purchaseAmount / 10);
+    console.log(`Earned points: ${points}`);
+    return points;
+};
+calculatePoints(500);
