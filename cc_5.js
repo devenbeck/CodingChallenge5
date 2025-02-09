@@ -43,3 +43,10 @@ console.log (discountedPrices);    //log result
 let inventory = [5,0,12,8,0]; //array of inventory
 let instock = inventory.filter(stock => stock > 0); //filter out all the out of stock ones (the ones that say 0)
 console.log(instock);   //log result
+
+//Task 6: Reduce Method
+//Scenario: Revenue Calculation
+let sales = [500,300,200,400];    //array of sales
+let totalRevenue = sales.reduce((total, sales) => total + sales, 0);   //reduces list/array to one value
+                                                                //total is originally set at zero and then adds up
+console.log (totalRevenue);
