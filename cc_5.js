@@ -21,3 +21,12 @@ const order = {           //object order declared
     }
 }; //log of order with details
 order.displayOrder();
+
+//Task 3: Array Manipulation (push, pop, shift, unshift)
+//Scenario: Shopping Cart
+let cartItems = ["mouthwash", "protein shakes", "salmon"];   //array for cart
+cartItems.push("mayonaise");     //adding a new item
+cartItems.pop();     //removing last item from array
+cartItems.unshift("ketchup");         //adding new item to beginning of array
+cartItems.shift();          //removes first item from array
+console.log(cartItems);
