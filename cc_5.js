@@ -38,3 +38,8 @@ const discount = 0.9;    //10% discount
 let discountedPrices = prices.map(prices => prices * discount)   //map method helps you quickly apply transformation to every item in an array
 console.log (discountedPrices);    //log result
 
+//Task 5: Filter Method
+//Scenario: Product Availability 
+let inventory = [5,0,12,8,0]; //array of inventory
+let instock = inventory.filter(stock => stock > 0); //filter out all the out of stock ones (the ones that say 0)
+console.log(instock);   //log result
